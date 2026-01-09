@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-09T13:26:54 IST" name="Default suite" finished-at="2026-01-09T13:27:01 IST" duration-ms="7643">
+    <groups>
+    </groups>
+    <test started-at="2026-01-09T13:26:54 IST" name="Default test" finished-at="2026-01-09T13:27:01 IST" duration-ms="7643">
+      <class name="testscript.Logintest">
+        <test-method is-config="true" signature="initializebrowser()[pri:0, instance:testscript.Logintest@7cc0cdad]" started-at="2026-01-09T13:26:54 IST" name="initializebrowser" finished-at="2026-01-09T13:26:59 IST" duration-ms="5105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method signature="loginWithBothInvalidCeredentials()[pri:0, instance:testscript.Logintest@7cc0cdad]" started-at="2026-01-09T13:26:59 IST" name="loginWithBothInvalidCeredentials" finished-at="2026-01-09T13:27:01 IST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBothInvalidCeredentials -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testscript.Logintest@7cc0cdad]" started-at="2026-01-09T13:27:01 IST" name="closebrowser" finished-at="2026-01-09T13:27:01 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testscript.Logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
