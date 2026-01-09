@@ -6,24 +6,19 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class Base {
-	
+
 	public WebDriver driver;
-	
+
 	@BeforeMethod
-	public void initializebrowser()
-	{
-		driver=new ChromeDriver();
+	public void initializebrowser() {
+		driver = new ChromeDriver();
 		driver.get("https://groceryapp.uniqassosiates.com/admin");
-		driver.manage().window().maximize();	
+		driver.manage().window().maximize();
 	}
-	
+
 	@AfterMethod
-	public void closebrowser()
-	{
+	public void closebrowser() {
 		driver.quit();
 	}
-	
-		
-	}
 
-
+}

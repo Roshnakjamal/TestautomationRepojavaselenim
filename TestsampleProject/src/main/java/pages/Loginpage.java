@@ -6,12 +6,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Loginpage {
-	
+
 	public WebDriver driver;
 
 	public Loginpage(WebDriver driver) {
-	    this.driver = driver;
-	    PageFactory.initElements(driver, this);
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 	}
 
 	@FindBy(xpath = "//input[@name='username']")
